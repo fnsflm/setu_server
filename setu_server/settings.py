@@ -25,7 +25,7 @@ SECRET_KEY = '=udt5tda3$)3mrnvz0qidebp!-ge54l#k^of-3n%hz+llvdn71'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['setu.fnsflm.xyz', '39.98.127.156', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -75,8 +75,14 @@ WSGI_APPLICATION = 'setu_server.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'setu_fnsflm_xyz',
+        'USER': 'setu_fnsflm_xyz',
+        'PASSWORD': 'Lw8HpG4BMCFPRizk',
+        'HOST': 'localhost',
+        'PORT': '3306'
     }
 }
 
