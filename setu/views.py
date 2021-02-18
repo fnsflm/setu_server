@@ -8,6 +8,8 @@ from urllib.parse import quote
 def setsetu(request):
     # print(request)
     test = request.GET.get('test')
+    test = test if test else '0'
+    # print(test)
     seturl = quote(random.choice(pics), 'utf-8')
     if test != '0':
         seturl = "https://cdn.jsdelivr.net/gh/fnsflm/myPicbed/photo_2021-02-14_18-00-46.jpg"
