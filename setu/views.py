@@ -7,8 +7,11 @@ from urllib.parse import quote
 # Create your views here.
 def setsetu(request):
     # print(request)
-
+    test = request.GET.get('test')
+    seturl = quote(random.choice(pics), 'utf-8')
+    if test != '0':
+        seturl = "https://cdn.jsdelivr.net/gh/fnsflm/myPicbed/photo_2021-02-14_18-00-46.jpg"
     return render(request, "setu.html", {
         # "setu": "setu_database/かにビーム/DzJ3-03VYAAnK54.jpg"
-        "setu": quote(random.choice(pics), 'utf-8')
+        "setu": seturl
     })
