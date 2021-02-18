@@ -18,8 +18,8 @@ from django.urls import path
 from setu.views import setsetu
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', setsetu)
-    # path('setu_database/',)
+    path('random/', setsetu)
+
 ]
 
 # admin passwd: ENkvuLFB5eRkeEj
