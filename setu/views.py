@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 import random
 from setu import pics
 from urllib.parse import quote
