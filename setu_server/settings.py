@@ -75,14 +75,14 @@ WSGI_APPLICATION = 'setu_server.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'setu_fnsflm_xyz',
-        'USER': 'setu_fnsflm_xyz',
-        'PASSWORD': 'Lw8HpG4BMCFPRizk',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'setu_fnsflm_xyz',
+        # 'USER': 'setu_fnsflm_xyz',
+        # 'PASSWORD': 'Lw8HpG4BMCFPRizk',
+        # 'HOST': 'localhost',
+        # 'PORT': '3306'
     }
 }
 
