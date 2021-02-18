@@ -1,4 +1,7 @@
 # setu_server
+## 随机setu
+简单的随机setu功能, 自己收集的图库(3.1G), 确保原图(VPS阿里云1M)
+http://setu.fnsflm.xyz:8000/random
 
 TODO LIST
 (咕咕咕)
