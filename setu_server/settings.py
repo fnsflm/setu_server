@@ -25,7 +25,7 @@ SECRET_KEY = '=udt5tda3$)3mrnvz0qidebp!-ge54l#k^of-3n%hz+llvdn71'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['setu.fnsflm.xyz', '39.98.127.156', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['setu.fnsflm.xyz', '39.98.127.156', 'localhost', '127.0.0.1','server.fnsflm.xyz','173.82.95.154']
 
 # Application definition
 
